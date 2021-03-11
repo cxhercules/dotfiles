@@ -1,0 +1,46 @@
+if OS.mac?
+    # taps
+    tap "homebrew/cask"
+    tap "homebrew/cask-fonts"
+
+    brew "mas"
+    brew "noti"
+    brew "trash"
+
+    # Applications
+    cask "kitty"
+    cask "imageoptim"
+    cask "notion"
+    cask "hazel"
+    cask "anybar"
+    cask "istat-menus"
+    cask "textbar"
+    cask "rocket"
+    cask "cleanshot"
+    cask "vmware-fusion"
+    cask "timing"
+    cask "soundsource"
+    cask "farrago"
+    cask "loopback"
+    cask "audio-hijack"
+    cask "paw"
+    cask "postman"
+    cask "1password"
+    cask "discord"
+    cask "telegram"
+    cask "iterm2"
+    cask "visual-studio-code"
+    cask "flycut"
+    cask "spectacle"
+
+    # Browsers
+    cask "firefox"
+    cask "google-chrome"
+
+    # Fonts
+    cask "font-fira-code"
+    cask "font-jetbrains-mono"
+    cask "font-cascadia-mono"
+    cask "font-3270-nerd-font"
+
+end

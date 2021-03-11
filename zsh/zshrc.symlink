@@ -35,8 +35,18 @@ fi
 
 
 # initialize autocomplete
-autoload -U compinit add-zsh-hook
+#autoload -U compinit add-zsh-hook
+#compinit
+autoload -U compinit promptinit
+
+promptinit
+#prompt pure
+
 compinit
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # prepend_path $HOME/npmbin/node_modules/.bin
 prepend_path /usr/local/opt/grep/libexec/gnubin
