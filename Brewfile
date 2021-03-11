@@ -19,7 +19,6 @@ if OS.mac?
     cask "cleanshot"
     cask "vmware-fusion"
     cask "timing"
-    cask "choosy"
     cask "soundsource"
     cask "farrago"
     cask "loopback"
