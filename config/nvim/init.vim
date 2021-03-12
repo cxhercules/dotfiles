@@ -485,7 +485,7 @@ call plug#begin('~/.config/nvim/plugged')
         \ 'coc-diagnostic'
         \ ]
 
-        autocmd CursorHold * silent call CocActionAsync('highlight')
+        " autocmd CursorHold * silent call CocActionAsync('highlight')
 
         " coc-prettier
         command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -641,7 +641,7 @@ call plug#end()
     else
         let g:onedark_termcolors=16
         let g:onedark_terminal_italics=1
-        colorscheme onedark
+        " colorscheme onedark
     endif
     syntax on
     filetype plugin indent on

@@ -1,0 +1,1 @@
+alias brewcaskinstall='cd $HOME/dotfiles/ && brew bundle --file Brewfile.cask --no-lock'

@@ -32,6 +32,9 @@ if OS.mac?
     cask "visual-studio-code"
     cask "flycut"
     cask "spectacle"
+    cask "slack"
+    cask "virtualbox"
+	cask "google-cloud-sdk"
 
     # Browsers
     cask "firefox"
