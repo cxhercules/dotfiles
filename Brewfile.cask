@@ -35,6 +35,9 @@ if OS.mac?
     cask "slack"
     cask "virtualbox"
 	cask "google-cloud-sdk"
+    cask "vagrant"
+    cask "dropbox"
+	cask "nomachine"
 
     # Browsers
     cask "firefox"

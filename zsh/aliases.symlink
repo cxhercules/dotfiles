@@ -1,1 +1,3 @@
 alias brewcaskinstall='cd $HOME/dotfiles/ && brew bundle --file Brewfile.cask --no-lock'
+alias brewinstall='cd $HOME/dotfiles/ && brew bundle --file Brewfile --no-lock'
+alias brewmasinstall='cd $HOME/dotfiles/ && brew bundle --file Brewfile.mas --no-lock'
