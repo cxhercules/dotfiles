@@ -38,6 +38,8 @@ if OS.mac?
     cask "vagrant"
     cask "dropbox"
 	cask "nomachine"
+	cask "gimp"
+	cask "docker"
 
     # Browsers
     cask "firefox"

@@ -106,3 +106,10 @@ if type -p keychain 2>&1 > /dev/null; then
 	keychain -q -Q ~/.ssh/id_rsa
     [[ -f ~/.keychain/G0d0fW4r.local-sh ]] && source ~/.keychain/G0d0fW4r.local-sh
 fi
+
+# Adding direnv
+if type -p direnv 2>&1 > /dev/null; then
+	eval "$(direnv hook zsh)"
+fi
+
+
