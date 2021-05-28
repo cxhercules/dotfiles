@@ -2,6 +2,7 @@ if OS.mac?
     # taps
     tap "homebrew/cask"
     tap "homebrew/cask-fonts"
+	tap "warrensbox/tap"
 
     brew "mas"
     brew "noti"
@@ -51,7 +52,7 @@ brew "zsh-syntax-highlighting"
 brew "python3"
 brew "keychain"
 brew "direnv"
-brew "terraform"
-brew "terragrunt"
 brew "k9s"
 brew "helm"
+brew "tfswitch"
+brew "tgswitch"
