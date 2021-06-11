@@ -3,3 +3,4 @@ alias brewinstall='pushd $HOME/dotfiles/ && brew bundle --file Brewfile --no-loc
 alias brewmasinstall='pushd $HOME/dotfiles/ && brew bundle --file Brewfile.mas --no-lock; popd '
 alias k='kubectl'
 alias tf=terraform
+alias gitcd='cd $GITROOT'
