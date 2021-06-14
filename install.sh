@@ -168,7 +168,7 @@ setup_homebrew() {
     # install brew dependencies from Brewfile
     brew bundle --file Brewfile --no-lock
     brew bundle --file Brewfile.cask --no-lock
-    brew bundle --file Brewfile.mas --no-lock
+    #brew bundle --file Brewfile.mas --no-lock
 
     # install fzf
     echo -e

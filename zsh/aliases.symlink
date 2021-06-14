@@ -1,6 +1,6 @@
-alias brewcaskinstall='pushd $HOME/dotfiles/ && brew bundle --file Brewfile.cask --no-lock; popd'
-alias brewinstall='pushd $HOME/dotfiles/ && brew bundle --file Brewfile --no-lock; popd'
-alias brewmasinstall='pushd $HOME/dotfiles/ && brew bundle --file Brewfile.mas --no-lock; popd '
+alias brewcaskinstall='pushd $HOME/.dotfiles/ && brew bundle --file Brewfile.cask --no-lock; popd'
+alias brewinstall='pushd $HOME/.dotfiles/ && brew bundle --file Brewfile --no-lock; popd'
+alias brewmasinstall='pushd $HOME/.dotfiles/ && brew bundle --file Brewfile.mas --no-lock; popd '
 alias k='kubectl'
 alias tf=terraform
 alias gitcd='cd $GITROOT'

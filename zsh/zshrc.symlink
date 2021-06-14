@@ -113,8 +113,10 @@ if type -p direnv 2>&1 > /dev/null; then
 fi
 
 # zshell kubectl auto completion
-source <(kubectl completion zsh)
-complete -F __start_kubectl k
+if type -p kubectl 2>&1 > /dev/null; then
+  source <(kubectl completion zsh)
+  complete -F __start_kubectl k
+fi
 
 # gcloud source
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
