@@ -103,7 +103,7 @@ source $HOME/.aliases
 
 # Adding keychain
 if type -p keychain 2>&1 > /dev/null; then
-	keychain -q -Q ~/.ssh/id_rsa
+	keychain -q -Q ~/.ssh/id_rsa ~/.ssh/main_id_rsa
     [[ -f ~/.keychain/G0d0fW4r.local-sh ]] && source ~/.keychain/G0d0fW4r.local-sh
 fi
 
